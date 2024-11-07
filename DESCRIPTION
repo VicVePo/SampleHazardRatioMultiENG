@@ -1,0 +1,16 @@
+Package: SampleHazardRatioMultiENG
+Title: Sample Size Calculation for Survival Analysis
+Version: 0.1.0
+Authors@R: 
+    person("Victor J.", "Vera-Ponce", email = "victor_jvp@hotmail.com",
+           role = c("aut", "cre"))
+Description: Tools for calculating sample sizes in survival studies
+    using Cox model, considering the effect of covariates
+    and different methodological approaches.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    stats
+LazyData: true
